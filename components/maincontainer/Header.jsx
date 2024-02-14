@@ -1,16 +1,22 @@
 import React from 'react'
-import { HiMenuAlt1 } from 'react-icons/hi';
-import { BsPerson } from 'react-icons/bs';
-import { BsWallet2 } from 'react-icons/bs';
-import { CiHeadphones } from 'react-icons/ci';
-import { BsBook } from 'react-icons/bs';
-import { IoMdNotificationsOutline } from 'react-icons/io';
+import { IoSearchSharp } from "react-icons/io5";
 
 const Header = () => {
   return (
     <div className="w-full  flex flex-row justify-between ">
-        <div>hello </div>
-        <div>hello </div>
+        <div className='flex flex-col' > 
+        <h3 className='text-2xl text-slate-700 font-bold' > Hello, Jhon .D</h3>
+        <p className='text-sm font-light text-slate-700' >View and control your finances here!</p>
+         </div>
+        <div>
+        <div
+            className="text-xl hover:scale-105 cursor-pointer bg-white p-3 rounded-full " 
+          >
+            {" "}
+            <IoSearchSharp />
+
+          </div>
+        </div>
 
   </div>  )
 }

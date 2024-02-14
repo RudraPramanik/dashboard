@@ -3,7 +3,7 @@ import Horizontal from './Chart/Horizontal'
 
 const DashBordRight = () => {
   return (
-    <div>
+    <div className=' overflow-x-auto h-[90%] ' >
       <Horizontal/>
     </div>
   )

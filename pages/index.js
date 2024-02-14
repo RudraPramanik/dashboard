@@ -1,6 +1,4 @@
-import Header from "../components/Header/index";
 import SideBar from "../components/sidebar/index";
-import Home from "../components/home/index";
 import DashBoard from "@/components/DashBoard";
 const index = () => {
   return (
@@ -13,9 +11,13 @@ const index = () => {
                 <SideBar />
               </div>
             </div>
-                {/* dashboard content */}
-
-        <DashBoard/>
+            {/* dashboard content */}
+        
+          <DashBoard />
+        
+      
+          
+          
             {/* dashboard content */}
           </div>
         </div>
