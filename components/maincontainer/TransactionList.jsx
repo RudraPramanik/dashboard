@@ -5,7 +5,7 @@ import { HiDotsVertical } from "react-icons/hi";
 
 const TransactionList = () => {
   return (
-    <div className="max-w-md mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+    <div className=" bg-white rounded-lg shadow-md overflow-hidden">
       <div className="mx-4  bg-white flex justify-between items-center border-b-2 border-blue-50  ">
         <div className="text-lg">Last Transaction</div>
         <div className="flex space-x-2 ">

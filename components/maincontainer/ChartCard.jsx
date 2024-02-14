@@ -6,7 +6,7 @@ import ChartComparison from "../Chart/ChartComparison";
 
 const ChartCard = () => {
   return (
-    <div className=" max-w-xl bg-white rounded-xl shadow-md grid grid-cols-6 px-4 py-5 ">
+    <div className=" bg-white rounded-xl shadow-md grid grid-cols-6 px-4 py-5 ">
       <div className="col-span-2 flex flex-col space-y-2 ">
         <p className="text-sm text-gray-700">Balance Statics</p>
         <p className="text-xl text-gray-700 font-medium ">$564</p>
