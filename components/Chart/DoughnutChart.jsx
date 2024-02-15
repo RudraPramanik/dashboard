@@ -71,7 +71,7 @@ const DoughnutChart = () => {
 
 
   return (
-    <div className=" flex justify-center items-center  " style={{ width: "350px", height: "175px" }}>
+    <div className=" flex justify-center items-center max-w-md mx-auto " >
       <Doughnut data={data} options={options} plugins={[textCenter]} className=" " ></Doughnut>
      
     </div>

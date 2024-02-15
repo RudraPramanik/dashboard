@@ -59,7 +59,7 @@ const ChartComparison = () => {
     };
 
   return (
-    <div style={{ width: '300px', height: '150px' }}> 
+    <div className=' max-w-sm '> 
     <Bar
       data={chartData}
       options={options}
