@@ -10,7 +10,7 @@ const ChatCard = ({ name, message }) => {
       </div>
       <div className="flex flex-col">
         <div className="flex justify-end items-center mb-2 py-2 ">
-          <div className="bg-blue-500 text-white text-base rounded-lg p-2 max-w-xs mr-2 ">message is hare</div>
+          <div className="bg-indigo-600 text-white text-base rounded-lg p-2 max-w-xs mr-2 ">message is hare</div>
           <FaUser className="h-6 w-6 text-sm rounded-full bg-blue-800 p-2 text-white " />
         </div>
         <div className="flex justify-start items-center mb-2 py-2 ">
@@ -26,7 +26,7 @@ const ChatCard = ({ name, message }) => {
           <FaFile className="text-gray-600 mr-2 cursor-pointer" />
             </div>
         
-          <button className="bg-blue-500 text-white rounded-md px-4 py-2">
+          <button className="bg-indigo-600 text-white rounded-md px-4 py-2">
             <p className='text-white font-semibold text-sm' >Send Now</p>
           </button>
         </div>
