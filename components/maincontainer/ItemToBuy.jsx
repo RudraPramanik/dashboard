@@ -30,7 +30,10 @@ const ItemToBuy = () => {
             <span className="text-xs text-gray-400 ">0/3</span> shopping list{" "}
           </p>
           <div className="flex flex-row items-center">
+            <div className=" text-gray-400 text-xl " >
             <FaPlus className="mr-2" />
+
+            </div>
             <p className="text-gray-600 text-base">Add Item</p>
           </div>
         </div>

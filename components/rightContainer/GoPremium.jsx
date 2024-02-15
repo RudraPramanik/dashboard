@@ -17,8 +17,8 @@ const GoPremium = () => {
      
       </div>
       <div>
-          <button className="bg-indigo-600 hover:bg-indigo-900 text-white font-bold py-2 px-4 rounded w-full">
-            Button
+          <button className="bg-indigo-600 hover:bg-indigo-900 text-indigo-100 font-bold py-2 px-4 rounded-xl w-full">
+            Get Now
           </button>
         </div>
     </div>

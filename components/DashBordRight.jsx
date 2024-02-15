@@ -1,5 +1,4 @@
 import React from 'react'
-import Horizontal from './Chart/HorizontalBarChart'
 import LatestSpending from './rightContainer/LatestSpending'
 import GoPremium from './rightContainer/GoPremium'
 import ExIncomeCard from './rightContainer/ExIncomeCard'

@@ -7,9 +7,9 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 const LatestSpending = () => {
   return (
     <div className=" bg-white rounded-2xl shadow-md py-4 border-[1px] border-blue-100  ">
-        <div className='flex flex-row justify-between' >
+        <div className='flex flex-row justify-between ' >
             <p className='text-md text-gray-600 ml-4 ' >Latest spending</p>
-            <HiDotsVertical className="text-center" />
+            <HiDotsVertical className="text-center mr-4 " />
         </div>
         {/*  */}
         <div>
