@@ -32,7 +32,7 @@ const DoughnutChart = () => {
       labels: {
         usePointStyle: true, // Use doughnut segment colors for labels
         font: {
-          size: 9
+          size: 12
       }
       },
       },
@@ -42,9 +42,9 @@ const DoughnutChart = () => {
   };
   const renderLegendButtons = () => {
     return data.labels.map((label, index) => (
-      <label key={index} className="mx-2 relative inline-block">
+      <label key={index} className="mx-2 relative inline-block -mt-6 ">
       <input type="checkbox" className="hidden" />
-      <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer">
+      <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 rounded cursor-pointer">
         {label}
       </div>
     </label>
@@ -71,7 +71,7 @@ const DoughnutChart = () => {
 
 
   return (
-    <div className=" flex justify-center items-center max-w-md mx-auto " >
+    <div className=" flex justify-center items-center max-w-xs 2xl:max-w-sm 3xl:max-w-md mx-auto -mt-8 " >
       <Doughnut data={data} options={options} plugins={[textCenter]} className=" " ></Doughnut>
      
     </div>

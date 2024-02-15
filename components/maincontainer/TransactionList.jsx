@@ -13,8 +13,8 @@ const TransactionList = () => {
         </div>
       </div>
       <div className=" my-2 ">
-        {/* Add more list items here */}
-        <div className="flex justify-between items-center pb-2 px-4 mx-2 border-b-2 border-blue-50 ">
+        {/* */}
+        <div className="flex justify-between items-center py-4 pb-2 px-4 mx-2 border-b-2 border-blue-50 ">
           <div className="flex ">
             <div className="mr-2 flex items-center ">
               <FaUser className="h-6 w-6 text-sm rounded-full bg-blue-800 p-2 text-white " />
@@ -32,7 +32,7 @@ const TransactionList = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center pb-2 px-4 mx-2 border-b-2 border-blue-50 ">
+        <div className="flex justify-between items-center py-4 px-4 mx-2 border-b-2 border-blue-50 ">
           <div className="flex ">
             <div className="mr-2 flex items-center ">
               <FaUser className="h-6 w-6 text-sm rounded-full bg-blue-800 p-2 text-white " />
@@ -50,7 +50,7 @@ const TransactionList = () => {
             </div>
           </div>
         </div>{" "}
-        <div className="flex justify-between items-center pb-2 px-4 mx-2 border-b-2 border-blue-50 ">
+        <div className="flex justify-between items-center py-4 pb-2 px-4 mx-2 border-b-2 border-blue-50 ">
           <div className="flex ">
             <div className="mr-2 flex items-center ">
               <FaUser className="h-6 w-6 text-sm rounded-full bg-blue-800 p-2 text-white " />
@@ -68,7 +68,6 @@ const TransactionList = () => {
             </div>
           </div>
         </div>
-        {/* Add more list items here */}
       </div>
     </div>
   );

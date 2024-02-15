@@ -10,7 +10,7 @@ const Analytics = () => {
             <p>Analytics</p>
             <p> <HiDotsVertical /></p>
         </div>
-        <div className='flex items-center -mt-2 ' >
+        <div className='flex items-center -mt-6' >
         <DoughnutChart/>
 
         </div>
